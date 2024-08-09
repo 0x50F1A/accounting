@@ -16,7 +16,9 @@ Please refer to the git-agecrypt documentation at their github repo.
 
 ### Note on decrypting
 
-The `git-agecrypt` docs are not amazing. To decrypt after cloning, add an identity `git-agecrypt config add -i ~/.ssh/id_ed25519`.
+The `git-agecrypt` docs are not amazing. 
+
+To decrypt a particular file after cloning, add an identity `git-agecrypt config add -i ~/.ssh/id_ed25519`.
 
 This identity needs to be a recipient of that particular file.
 
@@ -28,3 +30,5 @@ For example, in this repo:
 git-agecrypt config add -i id_ed25519
 git restore hledger.journal
 ```
+
+This does not need to be done ever again, as `git pull` will automatically decrypt the file in the future.
