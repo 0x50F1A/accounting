@@ -1,0 +1,15 @@
+journal_path: hledger.journal
+db_path: paisa.db
+sheets_directory: ""
+readonly: false
+ledger_cli: hledger
+default_currency: USD
+display_precision: 0
+amount_alignment_column: 52
+locale: en-CA
+time_zone: ""
+financial_year_starting_month: 4
+week_starting_day: 0
+strict: "no"
+budget:
+    rollover: "yes"

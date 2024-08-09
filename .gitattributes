@@ -1,0 +1,2 @@
+hledger.journal filter=git-agecrypt diff=git-agecrypt
+paisa.db filter=git-agecrypt diff=git-agecrypt

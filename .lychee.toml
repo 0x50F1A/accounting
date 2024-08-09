@@ -1,0 +1,29 @@
+cache = false
+
+max_cache_age = "2d"
+
+threads = 1
+
+max_redirects = 5
+
+max_retries = 3
+
+max_concurrency = 15
+
+timeout = 10
+
+retry_wait_time = 10
+
+insecure = false
+
+scheme = ["https", "mailto", "file"]
+
+require_https = true
+
+method = "get"
+
+exclude = ['^https://web\.archive\.org/web/']
+
+exclude_all_private = false
+
+include_mail = true
