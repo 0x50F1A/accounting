@@ -1,2 +1,3 @@
 [config]
+"hledger.journal" = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account"]
 "./hledger.journal" = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account"]
