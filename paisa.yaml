@@ -3,13 +3,37 @@ db_path: paisa.db
 sheets_directory: ""
 readonly: false
 ledger_cli: hledger
-default_currency: USD
+default_currency: CAD
 display_precision: 0
 amount_alignment_column: 52
-locale: en-CA
-time_zone: ""
+locale: en-US
+time_zone: Canada/Mountain
 financial_year_starting_month: 4
 week_starting_day: 0
 strict: "no"
 budget:
     rollover: "yes"
+schedule_al: []
+allocation_targets: []
+commodities:
+    - name: TQQQ
+      type: stock
+      price:
+        provider: com-yahoo
+        code: TQQQ
+      harvest: 365
+      tax_category: equity
+import_templates: []
+accounts: []
+goals:
+    retirement: []
+    savings: []
+user_accounts: []
+credit_cards:
+    - account: Liabilities:CreditCard:TDGreen
+      credit_limit: 25000
+      statement_end_day: 7
+      due_day: 21
+      network: visa
+      number: "8888"
+      expiration_date: "2028-07-01"
