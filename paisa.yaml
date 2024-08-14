@@ -1,3 +1,4 @@
+---
 journal_path: hledger.journal
 db_path: paisa.db
 sheets_directory: ""
@@ -12,28 +13,28 @@ financial_year_starting_month: 4
 week_starting_day: 0
 strict: "no"
 budget:
-    rollover: "yes"
+  rollover: "yes"
 schedule_al: []
 allocation_targets: []
 commodities:
-    - name: TQQQ
-      type: stock
-      price:
-        provider: com-yahoo
-        code: TQQQ
-      harvest: 365
-      tax_category: equity
+  - name: TQQQ
+    type: stock
+    price:
+      provider: com-yahoo
+      code: TQQQ
+    harvest: 365
+    tax_category: equity
 import_templates: []
 accounts: []
 goals:
-    retirement: []
-    savings: []
+  retirement: []
+  savings: []
 user_accounts: []
 credit_cards:
-    - account: Liabilities:CreditCard:TDGreen
-      credit_limit: 25000
-      statement_end_day: 7
-      due_day: 21
-      network: visa
-      number: "8888"
-      expiration_date: "2028-07-01"
+  - account: Liabilities:CreditCard:TDGreen
+    credit_limit: 25000
+    statement_end_day: 7
+    due_day: 21
+    network: visa
+    number: "8888"
+    expiration_date: "2028-07-01"

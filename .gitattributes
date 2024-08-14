@@ -1,1 +1,1 @@
-hledger.journal filter=git-agecrypt diff=git-agecrypt
+**/postings.ledger filter=git-agecrypt diff=git-agecrypt

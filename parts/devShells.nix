@@ -21,7 +21,7 @@
       shellHook = ''
         FLAKE_ROOT="''$(${lib.getExe config.flake-root.package})"
         export FLAKE_ROOT
-        LEDGER_FILE="$FLAKE_ROOT/hledger.journal"
+        LEDGER_FILE="$FLAKE_ROOT/book.ledger"
         export LEDGER_FILE
         PAISA_CONFIG="$FLAKE_ROOT/paisa.yaml"
         export PAISA_CONFIG

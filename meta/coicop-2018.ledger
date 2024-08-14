@@ -1,0 +1,14 @@
+# COICOP 2018 Accounts and Aliases
+# https://unstats.un.org/unsd/class/revisions/coicop_revision.asp
+# https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf
+
+account Assets:Cash:Wallet    ; type:A
+account Assets:Checking:TD    ; type:A
+
+account Liabilities:CreditCard:TDGreen    ; type:L
+
+account Equity:OpeningBalance    ; type:E
+
+account Expenses:Household
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Wheat
+

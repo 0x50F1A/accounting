@@ -1,7 +1,10 @@
 [config]
-"hledger.journal" = [
+"2024/postings.ledger" = [
   "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account",
 ]
-"./hledger.journal" = [
+"2023/postings.ledger" = [
+  "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account",
+]
+"paisa.db" = [
   "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account",
 ]
