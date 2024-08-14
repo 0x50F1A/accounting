@@ -1,10 +1,10 @@
 use std log
 
 def main [...files: string] {
-  if ($files | is-empty) {
-    log error "No files provided"
-    exit 1
-  }
+  # if ($files | is-empty) {
+  #   log error "No files provided"
+  #   exit 1
+  # }
 
   let results = $files | each { |file|
     let unmarked_payees = (hledger payees --unmarked -f $file | lines | where { |line| $line != "" })
