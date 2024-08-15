@@ -2,6 +2,12 @@
 "2024/postings.ledger" = [
   "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account",
 ]
+"meta/accounts.ledger" = [
+  "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account",
+]
+"meta/payees.ledger" = [
+  "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account",
+]
 "paisa.db" = [
   "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIM6wFoYlV9ClfwpR2zK7eLGECIRAoEdHrcO9pOAEzEO account",
 ]

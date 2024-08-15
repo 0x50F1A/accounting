@@ -37,6 +37,10 @@
 - Because of how `hledger` works, we create a separate file to handle aliases
 - This should provide a more readable `accounts` output
 
+### Running all checks
+
+`pre-commit run --all-files`
+
 ### Checking that any year's book passes strict checks
 
 `hledger bal --strict -f 2024/book.ledger`

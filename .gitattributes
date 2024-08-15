@@ -1,2 +1,4 @@
 **/postings.ledger filter=git-agecrypt diff=git-agecrypt
+**/accounts.ledger filter=git-agecrypt diff=git-agecrypt
+**/payees.ledger filter=git-agecrypt diff=git-agecrypt
 **/paisa.db filter=git-agecrypt diff=git-agecrypt

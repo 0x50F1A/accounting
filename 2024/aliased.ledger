@@ -1,3 +1,3 @@
-alias Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Wheat=Wheat
+alias account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Strawberry=Strawberry
 
 include postings.ledger

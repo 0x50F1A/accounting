@@ -1231,7 +1231,7 @@ account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Pistac
 account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Walnut
 account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Other Nuts
 
-01.1.6.9 Fruit and Nuts Ground and Other Preparations (ND)
+#### 01.1.6.9 Fruit and Nuts Ground and Other Preparations (ND)
 
 account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Apple
 account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Apricot
