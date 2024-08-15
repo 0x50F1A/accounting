@@ -1,0 +1,4 @@
+account Assets:Cash:Wallet    ; type:A
+account Assets:Checking:TD    ; type:A
+account Liabilities:CreditCard:TDGreen    ; type:L
+account Equity:OpeningBalance    ; type:E

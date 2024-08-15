@@ -2,13 +2,1284 @@
 # https://unstats.un.org/unsd/class/revisions/coicop_revision.asp
 # https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf
 
-account Assets:Cash:Wallet    ; type:A
-account Assets:Checking:TD    ; type:A
+tag product-type
+tag product-type-short
 
-account Liabilities:CreditCard:TDGreen    ; type:L
+# 01 Food and Non-Alcoholic Beverages
 
-account Equity:OpeningBalance    ; type:E
+## 01.1 Food
 
-account Expenses:Household
-account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Wheat
+#### 01.1.1 Cereals and Cereal Products (ND)
 
+#### 01.1.1.1 Cereals (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Wheat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Rice
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Sorghum
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Barley
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Millet
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Maize
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Quinoa
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Teff
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Bulgur
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Rye
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Oats
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Triticale
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Buckwheat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Canary Seed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Quihuicha
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Canagua
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Adlay
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Cereals:Mixed Cereal Grains
+
+#### 01.1.1.2 Flour of Cereals (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Wheat Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Rice Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Sorgum Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Barley Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Millet Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Maize Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Quinoa Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Teff Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Bulgur Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Rye Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Oat Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Triticale Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Buckwheat Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Canary Seed Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Quihuicha Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Canagua Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Adlay Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Mixed Cereal Grain Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Instant Flour
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Flour Of Cereals:Polenta Flour
+
+#### 01.1.1.3 Bread and Bakery Products (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Bread And Bread Rolls
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Crisp Bread
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Rusks
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Toasted Bread
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Crackers
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Tortillas
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Injera
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Pizza Bases
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Gingerbread
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Sweet Biscuits And Cookies
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Waffles And Wafers
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Ice Cream Cones
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Crumpets
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Muffins
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Croissants
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Cakes
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Sweet Tarts
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Sweet Pies
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Bread and Bakery Products:Pastry Goods
+
+#### 01.1.1.4 Breakfast Cereals (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Breakfast Cereals:Cornflakes
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Breakfast Cereals:Oatmeal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Breakfast Cereals:Muesli
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Breakfast Cereals:Granola
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Breakfast Cereals:Puffed Cereal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Breakfast Cereals:Cereal With Nuts Or Fruit
+
+#### 01.1.1.5 Noodles (ND)
+
+##### Couscous
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Couscous
+
+##### Fun
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Youmian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Kaomianjin
+
+##### Rice
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Rice:Shahe
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Rice:Mixian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Rice:Lai
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Rice:Guo Tiao
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Rice:Mifen
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Rice:Migan
+
+##### Starch
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Starch:Fensi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Starch:Dungfen
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Starch:Fen Pi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Starch:Liangpi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Starch:Yi Zhen Fen
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Fun:Starch:Suan La Fen
+
+##### Guksu
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Dotori Guksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Janchi Guksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Jatguksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Jjolmyeon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Kalgugsu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Makguksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Olchaengi Guksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Gamja Guksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Gamjanongma Guksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Milguksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Naengmyeon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Chilkalgugsu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Ssuk Kalguksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Hobaek Kalguksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Kkoltu Guksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Kongguksu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Cheonsachae
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Guksu:Tteok
+
+##### Mein
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Biangbiang
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Cat Ear
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Cold
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Daoxiao
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Lamian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Yaka
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Lo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Misua
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Saang
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Cumian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:You Po Mian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Ximian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Mee Pok
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Yimian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Xiazi Mian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Jook-sing
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Reganmian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Paomo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Gong Zai Mian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Wonton
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mein:Yi Mein
+
+##### Menrui
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Harusame
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Hiyamugi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Ramen
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Somen
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Udon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Yakisoba
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Yakiudon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Zaru Soba
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Champon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Sanuki Udon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Shirataki
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Wanko Soba
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Takoroten
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Men:Soba
+
+##### Mi
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Banh Canh
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Mien
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Banh Pho
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Chao Canh
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Banh Da
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Banh Tam
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Banh Hoi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Banh Cuon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Nui
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mi:Banh Gat Gu
+
+##### Mie
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mie:Kwetiau
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mie:Bakmi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mie:Bihun
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Mie:Soun
+
+##### Pancit
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pancit:Canton
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pancit:Bihon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pancit:Lomi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pancit:Miki
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pancit:Misua
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pancit:Palabok
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pancit:Sotanghon
+
+##### Pasta
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Spaghetti
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Fettuccine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Penne
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Rotini
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Fusilli
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Rigatoni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Ziti
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Cavatapi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Orecchiette
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Farfalle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Tagliatelle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Linguine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Macaroni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Maniche
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Tortellini
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Gnocchi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Ravioli
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Lasagne
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Fettuccine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Orecchiette
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Sedani
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Cannelloni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Orzo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Capellini
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Ditalini
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Pappardelle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Uncooked Stuffed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Dried Pasta
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Pasta:Fresh Pasta
+
+##### Sevai
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Dhokli
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Semiya
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Sevai
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Noodles:Idiyappam
+
+#### 01.1.1.9 Other Cereal and Grain Mill Products (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Other:Mixes And Doughs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Other:Popcorn
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Other:Granola Bars
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Other:Malt and Malt Extract
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Other:Chips and Crisps
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Cereals And Cereal Products:Other:Seitan
+
+### 01.1.2 Live animals, meat and other parts of slaughtered land animals (ND)
+
+#### 01.1.2.1 Live land animals (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Veal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Zebu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Watussi Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Gaur
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Gayal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Banteng
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Yak
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Water Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Celebese Anoa
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Arni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:African Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:American Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:European Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Beefalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Pig
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Lamb
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Duck
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Goose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Turkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Guinea Fowl
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Quail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Pheasant
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Partridge
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Ostrich
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Emu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Rhea
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Grouse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Pigeon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Bird:Other Bird
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Hare
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Rabbit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Horse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Donkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Other Equine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Dromedary
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Alpaca
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Llama
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Guanaco
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Vicuna
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Other Camelid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Snake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Alligator
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Crocodile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Turtle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Frog
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Other Reptile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Scorpion
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Worm
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Insect
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Other Invertebrate
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Live Land Animals:Snail
+
+#### 01.1.2.2 Meat, Fresh, Chilled or Frozen (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Beef
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Veal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Zebu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Watussi Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Gaur
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Gayal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Banteng
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Yak
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Water Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Celebese Anoa
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Arni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:African Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:American Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:European Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Beefalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Pork
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Lamb
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Duck
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Goose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Turkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Guinea Fowl
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Quail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Pheasant
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Partridge
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Ostrich
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Emu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Rhea
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Grouse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Pigeon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Bird:Other Bird
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Hare
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Rabbit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Horse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Donkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Other Equine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Dromedary
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Alpaca
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Llama
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Guanaco
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Vicuna
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Other Camelid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Snake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Alligator
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Crocodile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Turtle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Frog
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Other Reptile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Scorpion
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Worm
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Insect
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Other Invertebrate
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Snail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Seal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Walrus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Whale
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Other Marine Mammal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Antelope
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Deer
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Elk
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Moose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Reindeer
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Boar
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Fresh:Kangaroo
+
+#### 01.1.2.3 Meat, Dried, Salted, in Brine or Smoked (ND)
+
+##### By Animal
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Beef
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Veal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Zebu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Watussi Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Gaur
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Gayal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Banteng
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Yak
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Water Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Celebese Anoa
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Arni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:African Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:American Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:European Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Beefalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Pork
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Lamb
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Duck
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Goose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Turkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Guinea Fowl
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Quail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Pheasant
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Partridge
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Ostrich
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Emu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Rhea
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Grouse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Pigeon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bird:Other Bird
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Hare
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Rabbit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Horse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Donkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Other Equine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Dromedary
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Alpaca
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Llama
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Guanaco
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Vicuna
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Other Camelid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Snake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Alligator
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Crocodile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Turtle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Frog
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Other Reptile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Scorpion
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Worm
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Insect
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Other Invertebrate
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Snail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Seal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Walrus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Whale
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Other Marine Mammal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Antelope
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Deer
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Elk
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Moose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Reindeer
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Boar
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Kangaroo
+
+##### By Product
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Jerky
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Biltong
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Bacon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Ham
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Prosciutto
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Speck
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Pancetta
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Guanciale
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Salami
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Chorizo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Pepperoni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Soppressata
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Capicola
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Landjaeger
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Dried:Po
+
+#### 01.1.2.4 Offal, Blood and Other Parts of Slaughtered Animals, Fresh, Chilled or Frozen, Dried, Salted, in Brine or Smoked (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Beef
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Veal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Zebu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Watussi Ox
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Gaur
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Gayal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Banteng
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Yak
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Water Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Celebese Anoa
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Arni
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:African Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:American Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:European Bison
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Beefalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Pork
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Lamb
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Duck
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Goose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Turkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Guinea Fowl
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Quail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Pheasant
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Partridge
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Ostrich
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Emu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Rhea
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Grouse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Pigeon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bird:Other Bird
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Hare
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Rabbit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Horse
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Donkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Other Equine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Dromedary
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Alpaca
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Llama
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Guanaco
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Vicuna
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Other Camelid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Snake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Alligator
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Crocodile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Turtle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Frog
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Other Reptile
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Scorpion
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Worm
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Insect
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Other Invertebrate
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Snail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Seal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Walrus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Whale
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Other Marine Mammal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Antelope
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Deer
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Elk
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Moose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Reindeer
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Boar
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Kangaroo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Bones
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Pork Heads
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Pork Tails
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Pork Feet
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Pork Ears
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Offal:Fresh:Chicken Feet
+
+#### 01.1.2.5 Meat, Offal, Blood and Other Parts of Slaughtered Animals' Preparations (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Sausages
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Marinated Meat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Canned Meat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Meat Extracts
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Meat Juices
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Minced Meat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Pate
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Breaded Meat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Meat:Other:Preparations of Meat
+
+### 01.1.3 Fish and Other Seafood (ND)
+
+#### 01.1.3.1 Fish, Live, Fresh, Chilled or Frozen (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Catfish:Channel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Catfish:Blue
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Catfish:Flathead
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Catfish:Other Catfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Cod:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Cod:Pacific
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Cod:Hake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Cod:Other Cod
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Rockfish:Pacific
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Rockfish:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Rockfish:Other Rockfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Salmon:Sockeye
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Salmon:Chinook
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Salmon:Coho
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Salmon:Chum
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Salmon:Pink
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Salmon:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Salmon:Other Salmon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Trout:Rainbow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Trout:Brown
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Trout:Brook
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Trout:Lake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Trout:Other Trout
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Tuna:Bluefin
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Tuna:Yellowfin
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Tuna:Bigeye
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Tuna:Skipjack
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Tuna:Albacore
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Tuna:Other Tuna
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Tilapia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Live:Sablefish
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Catfish:Channel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Catfish:Blue
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Catfish:Flathead
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Catfish:Other Catfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Cod:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Cod:Pacific
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Cod:Hake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Cod:Other Cod
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Rockfish:Pacific
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Rockfish:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Rockfish:Other Rockfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Salmon:Sockeye
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Salmon:Chinook
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Salmon:Coho
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Salmon:Chum
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Salmon:Pink
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Salmon:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Salmon:Other Salmon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Trout:Rainbow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Trout:Brown
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Trout:Brook
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Trout:Lake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Trout:Other Trout
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Tuna:Bluefin
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Tuna:Yellowfin
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Tuna:Bigeye
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Tuna:Skipjack
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Tuna:Albacore
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Tuna:Other Tuna
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Tilapia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Fresh:Sablefish
+
+#### 01.1.3.2 Fish, Dried, Salted, in Brine or Smoked (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Catfish:Channel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Catfish:Blue
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Catfish:Flathead
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Catfish:Other Catfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Cod:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Cod:Pacific
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Cod:Hake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Cod:Other Cod
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Rockfish:Pacific
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Rockfish:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Rockfish:Other Rockfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Salmon:Sockeye
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Salmon:Chinook
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Salmon:Coho
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Salmon:Chum
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Salmon:Pink
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Salmon:Atlantic
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Salmon:Other Salmon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Trout:Rainbow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Trout:Brown
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Trout:Brook
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Trout:Lake
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Trout:Other Trout
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Tuna:Bluefin
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Tuna:Yellowfin
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Tuna:Bigeye
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Tuna:Skipjack
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Tuna:Albacore
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Tuna:Other Tuna
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Tilapia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Dried:Sablefish
+
+#### 01.1.3.3 Fish Preparations (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Prepared:Breaded Fish Fillets
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Prepared:Fish Sticks
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Prepared:Fish Cakes
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Prepared:Fish Balls
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Prepared:Crabmeat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Fish:Prepared:Surimi
+
+#### 01.1.3.4 Other Seafood, Live, Fresh, Chilled or Frozen (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Shrimp
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Prawn
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Lobster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Crab
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Crayfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Krill
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Sea Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Crustaceans:Other Crustaceans
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Clam
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Oyster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Mussel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Scallop
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Abalone
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Cockle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Ark Shell
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Molluscs:Other Molluscs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Cuttlefish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Squid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Octopus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Sea Urchins
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Sea Cucumbers
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Sea Squirts
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Jellyfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Sea Turtles
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Sea Snails
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Sea Slugs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Live:Other Sea Invertebrates
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Shrimp
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Prawn
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Lobster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Crab
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Crayfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Krill
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Sea Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Crustaceans:Other Crustaceans
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Clam
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Oyster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Mussel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Scallop
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Abalone
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Cockle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Ark Shell
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Molluscs:Other Molluscs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Cuttlefish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Squid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Octopus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Sea Urchins
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Sea Cucumbers
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Sea Squirts
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Jellyfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Sea Turtles
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Sea Snails
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Sea Slugs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Fresh:Other Sea Invertebrates
+
+#### 01.1.3.5 Other Seafood, Dried, Salted, in Brine or Smoked (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Shrimp
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Prawn
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Lobster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Crab
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Crayfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Krill
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Sea Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Crustaceans:Other Crustaceans
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Clam
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Oyster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Mussel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Scallop
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Abalone
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Cockle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Ark Shell
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Molluscs:Other Molluscs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Cuttlefish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Squid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Octopus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Sea Urchins
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Sea Cucumbers
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Sea Squirts
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Jellyfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Sea Turtles
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Sea Snails
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Sea Slugs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Dried:Other Sea Invertebrates
+
+#### 01.1.3.6 Other Seafood Preparations (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Shrimp
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Prawn
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Lobster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Crab
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Crayfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Krill
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Sea Spider
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Crustaceans:Other Crustaceans
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Clam
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Oyster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Mussel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Scallop
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Abalone
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Cockle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Ark Shell
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Molluscs:Other Molluscs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Cuttlefish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Squid
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Octopus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Sea Urchins
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Sea Cucumbers
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Sea Squirts
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Jellyfish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Sea Turtles
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Sea Snails
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Sea Slugs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Other:Prepared:Other Sea Invertebrates
+
+#### 01.1.3.7 Liver, Roes, and Offal of Fish and of Other Seafood in All Forms (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Offal:Fish:Liver
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Offal:Fish:Roes
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Offal:Fish:Fins
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Offal:Fish:Maws
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Offal:Fish:Meal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Seafood:Offal:Fish:Other Offal
+
+### 01.1.4 Milk, other Dairy Products and Eggs (ND)
+
+#### 01.1.4.1 Raw and Whole Milk (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Raw:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Raw:Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Raw:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Raw:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Raw:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Raw:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Pasteurized:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Pasteurized:Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Pasteurized:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Pasteurized:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Pasteurized:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Pasteurized:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Reconstituted:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Reconstituted:Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Reconstituted:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Reconstituted:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Reconstituted:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Reconstituted:Other Milk
+
+#### 01.1.4.2 Skimmed Milk (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Skimmed:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Skimmed:Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Skimmed:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Skimmed:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Skimmed:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Skimmed:Other Milk
+
+#### 01.1.4.3 Other Milk and Cream (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Baked
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Powder:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Powder:Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Powder:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Powder:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Powder:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Powder:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Evaporated:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Evaporated:Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Evaporated:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Evaporated:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Evaporated:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Evaporated:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Condensed:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Condensed:Buffalo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Condensed:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Condensed:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Condensed:Camel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Condensed:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Fresh:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Fresh:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Clotted:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Clotted:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Thickened:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Thickened:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Whipped:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Whipped:Other Milk
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Concentrated:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Concentrated:Other Milk
+
+#### 01.1.4.4 Non-Animal Milk (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Coconut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Oat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Rice
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Soy
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Hemp
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Cashew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Macadamia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Hazelnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Pea
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Other Non-Animal Milk
+
+#### 01.1.4.5 Cheese (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Cheddar
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Brie
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Parmesan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Gouda
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Swiss
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Blue
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Camembert
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Roquefort
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Gorgonzola
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Stilton
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Emmental
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Edam
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Gruyere
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Provolone
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Monterey Jack
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Colby
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Pepper Jack
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Brick
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Limburger
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Fontina
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Havarti
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Muenster
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Ricotta
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Cottage
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Feta
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:American
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Cream
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cheese:Other Cheese
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Cashew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Sesame
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Sunflower
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Soy
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Mozzarella
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Parmesan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Cheddar
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Gouda
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Cheese:Cream
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Milk:Other Non-Animal Milk
+
+#### 01.1.4.6 Yoghurt and Similar Products (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Plain
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Flavoured
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Greek
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Skimmed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Low-Fat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Fat-Free
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Whole
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Yoghurt:Other Yoghurt
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Buttermilk
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Kefir
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Labneh
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Quark
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Skyr
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Other Fermented Dairy
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk:Curdled
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Cream:Curtled
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Coconut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Cashew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Soy
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Oat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Rice
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Hemp
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Yoghurt:Other Non-Animal Yoghurt
+
+#### 01.1.4.7 Milk-based Dessert and Beverages (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Rice Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Semolina Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Flan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Custard
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Bavarian Cream
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Creme Brulee
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Creme Caramel
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Trifle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Vla
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Affogato
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Beverages:Chocolate Milk
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Beverages:Strawberry Milk
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Beverages:Hot Chocolate
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Beverages:Iced Latte
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Beverages:Latte
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Dessert:Other Milk-based Dessert
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Coconut Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Almond Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Cashew Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Soy Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Rice Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Oat Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Hemp Pudding
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Dessert:Other Non-Animal Pudding
+
+#### 01.1.4.8 Eggs (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Fresh:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Fresh:Duck
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Fresh:Goose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Fresh:Quail
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Fresh:Turkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Fresh:Turtle
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Fresh:Other Eggs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Preserved:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Preserved:Other Eggs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Yolks:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Yolks:Other Eggs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Whites:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Eggs:Whites:Other Eggs
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Eggs:Flax
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Eggs:Chia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Eggs:Tofu
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Eggs:Mung
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Eggs:Replacement
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Non-Animal:Eggs:Other Non-Animal Eggs
+
+#### 01.1.4.9 Other Dairy products (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Whey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Casein
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Milk Protein Concentrate
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Other Milk Products
+
+### 01.1.5 Oils and Fats (ND)
+
+#### 01.1.5.1 Vegetable Oils (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Sunflower
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Safflower
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Palm
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Olive
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Soya
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Groundnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Rapeseed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Colza
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Mustard
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Corn
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Cotton
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Coconut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Linseed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Flaxseed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Hempseed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Poppyseed
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Walnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Hazelnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Peanut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Macadamia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Avocado
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Grape
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Chia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Other Vegetable Oils
+
+#### 01.1.5.2 Butter and Other Fats and Oils Derived From Milk (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Butter
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Butter Oil
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Dairy:Ghee
+
+#### 01.1.5.3 Margarine and Similar Preparations (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Margarine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Shortening
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Vegetable Lard
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetable Oils:Vegetable Fat
+
+#### 01.1.5.9 Other Animal Oils and Fats (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Oils:Fish
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Oils:Whale
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Oils:Seal
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Pig
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Cow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Sheep
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Goat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Lard
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Beef Tallow
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Goose
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Duck
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Chicken
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Turkey
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Animals:Fats:Other Animal Fats
+
+### 01.1.6 Fruits and Nuts (ND)
+
+#### 01.1.6.1 Dates, Figs and Tropical Fruits, Fresh (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Dates
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Figs
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Avocados
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Bananas
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Coconuts
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Kiwi
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Mango
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Papaya
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pineapple
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Guava
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Passion Fruit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Lychee
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Rambutan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Durian
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Jackfruit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Longan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Salak
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Starfruit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Tamarillo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Tamarind
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Breadfruit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Carambola
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Cherimoya
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Mangosteen
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Other Tropical Fruits
+
+#### 01.1.6.2 Citrus Fruits, Fresh (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Lemon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Lime
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Orange
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapefruit
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Clementine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Mandarin
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Tangerine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pomelo
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Kumquat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Other Citrus Fruits
+
+#### 01.1.6.3 Stone Fruits and Pome Fruits, Fresh (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Apple:Golden Delicious
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Apple:Red Delicious
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Apple:Granny Smith
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Apple:Pink Lady
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Apple:Royal Gala
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Apple:Other Apples
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Apricot
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Cherry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Nectarine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Peach
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Plum
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pear:Anjou
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pear:Bartlett
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pear:Bosc
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pear:Comice
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pear:Concorde
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Quince
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Medlar
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Other Stone Fruits
+
+#### 01.1.6.4 Berries, Fresh (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Blackberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Blueberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Boysenberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Cranberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Currant
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Gooseberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Mulberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Raspberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Strawberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Other Berries
+
+#### 01.1.6.5 Other Fruits, Fresh (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapes:Black
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapes:Green
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapes:Red
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapes:Cotton Candy
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapes:Concord
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapes:Muscat
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Grapes:Thompson Seedless
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Watermelon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Cantaloupe
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Honeydew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Canary
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Galia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Santa Claus
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Hami
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Crenshaw
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Gac
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Melon:Other Melons
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Fresh:Pomegranate
+
+#### 01.1.6.6 Frozen Fruit (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Blueberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Raspberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Strawberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Blackberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Mango
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Pineapple
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Avocado
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Frozen:Other Frozen Fruits
+
+#### 01.1.6.7 Fruit, Dried and Dehydrated (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Apple
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Apricot
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Banana
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Cherry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Cranberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Date
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Fig
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Goji
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Grape
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Mango
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Papaya
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Peach
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Pear
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Pineapple
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Coconut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Dried:Other Dried Fruits
+
+#### 01.1.6.8 Nuts, In Shell or Shelled (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Brazil
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Cashew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Chestnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Hazelnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Macadamia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Pecan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Pine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Pistachio
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Walnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Raw:Other Nuts
+
+01.1.6.9 Fruit and Nuts Ground and Other Preparations (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Apple
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Apricot
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Banana
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Cherry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Cranberry
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Date
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Fig
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Peach
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Pear
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Pineapple
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Coconut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Canned:Other Canned Fruits
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Pickle:Peaches
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Pickle:Watermelon
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Pickle:Prickly Pear
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Pickle:Mango
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Fruits:Pickle:Other Pickled Fruits
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Ground:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Ground:Cashew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Ground:Hazelnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Ground:Macadamia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Ground:Pecan
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Cashew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Hazelnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Macadamia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Pecan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Pine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Pistachio
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Walnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Roasted:Other Nuts
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Almond
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Cashew
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Hazelnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Macadamia
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Pecan
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Pine
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Pistachio
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Walnut
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Nuts:Salted:Other Nuts
+
+### 01.1.7 Vegetables, Tubers, Plantains, Cooking Bananas and Pulses (ND)
+
+#### 01.1.7 Leafy or Stem Vegetables, Fresh or Chilled (ND)
+
+account Expenses:Household:Food And Non-Alcoholic Beverages:Food:Vegetables:Fresh:Artichoke
